@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>CRUD Usuarios</title>
+</head>
+<body>
+  <h1>Lista de usuarios</h1>
+  <ul id="usuarios"></ul>
+
+  <h2>Agregar usuarios</h2>
+  <input id="nombre" placeholder="Nombre" />
+  <input id="celular" placeholder="Celular" />
+  <button onclick="crearUsuario()">Agregar</button>
+
+  <h2>Actualizar usuario</h2>
+  <div id="formulario-actualizar" style="display: none;">
+    <input type="hidden" id="actualizar-id" />
+    <input id="actualizar-nombre" placeholder="Nuevo nombre" />
+    <input id="actualizar-celular" placeholder="Nuevo celular" />
+    <button onclick="actualizarUsuario()">Guardar cambios</button>
+    <button onclick="cancelarActualizacion()">Cancelar</button>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
