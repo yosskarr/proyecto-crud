@@ -3,6 +3,81 @@
 <head>
   <meta charset="UTF-8" />
   <title>CRUD Usuarios</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #1e1e1e;
+      margin: 0;
+      padding: 20px;
+      color: #eee;
+    }
+
+    h1, h2 {
+      color: #ffffff;
+    }
+
+    input {
+      padding: 8px;
+      margin: 5px 0;
+      border: 1px solid #444;
+      border-radius: 4px;
+      background-color: #2c2c2c;
+      color: #eee;
+      width: 200px;
+    }
+
+    button {
+      padding: 8px 12px;
+      margin: 5px;
+      border: none;
+      border-radius: 4px;
+      background-color: #4a90e2;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #357ab8;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      background: #2a2a2a;
+      margin: 8px 0;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    li button {
+      margin-left: 10px;
+      background-color: #e74c3c;
+    }
+
+    li button:nth-child(3) {
+      background-color: #f39c12;
+    }
+
+    li button:hover:nth-child(3) {
+      background-color: #e67e22;
+    }
+
+    #formulario-actualizar {
+      background: #2a2a2a;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
   <h1>Lista de usuarios</h1>
@@ -25,3 +100,6 @@
   <script src="main.js"></script>
 </body>
 </html>
+
+
+

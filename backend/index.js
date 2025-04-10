@@ -7,7 +7,6 @@ const db = require('./database');
 app.use(cors());
 app.use(express.json());
 
-// Rutas CRUD
 
 // Leer todos los usuarios
 app.get('/usuarios', (req, res) => {
